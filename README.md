@@ -49,7 +49,7 @@ This is a python based proof of concept that shows how we can use python with th
 
 ## getting paranoid
 
-First, to replicate the entire attack I pulled down a copy of the paranoid_crypto library and set up some code to load the eMudhra .pem files and test them with the `CheckAllEC()` function. This demonstrates the paranoid_crypt library and allows us to call a specific attack depending on which weakness was identified.
+First, to replicate the entire attack I pulled down a copy of the paranoid_crypto library and set up some code to load the eMudhra .pem files and test them with the `CheckAllEC()` function. This demonstrates the paranoid_crypto library and allows us to call a specific attack depending on which weakness was identified.
 
 ```
 # get the paranoid objects from x509certs
